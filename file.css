@@ -1,0 +1,416 @@
+*{
+    border: border-box;
+    margin: 0;
+    font-family:Arial;
+    font-size: 16px;
+}
+
+body{
+    background-color: black;
+}
+
+/* nAVBAR */
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: #ffffff;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar-left{
+    height: 70px;
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar-right{
+    height: 70px;
+    width:20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.bars{
+    color: white;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.aniwatch-logo{
+    background-image: url("aniwatch_logo.png");
+    background-size: cover;
+    height: 40px;
+    width: 121px;
+    margin-left: 1vw;
+}
+
+/* Social media icons */
+
+.social-media{
+    height: 40px;
+    width: 13rem;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 2vw;
+}
+
+.join-now{
+    width: 38px;
+    padding: 6px 0px 6px 0px;
+    filter: contrast(40%);
+    font-weight:500;
+    margin-right: 15px;
+}
+
+.social-media-links{
+    height: 40px;
+    width: 148px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div-of-icons{
+    height: 34px;
+    width: 32px;
+    margin-right: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#discord{
+    height: 34px;
+    width: 32px;
+    background-color: #6F85D5;
+}
+#telegram{
+    height: 34px;
+    width: 32px;
+    background-color: #0088CC;
+}
+#reddit{
+    height: 34px;
+    width: 32px;
+    background-color: #FF3C1F;
+}
+#twitter{
+    height: 34px;
+    width: 32px;
+    background-color: #1d9df0;
+}
+
+/* <!-- FOUR TOGGELS  --> */
+
+.toggles{
+    height:40px;
+    width:25rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 0px;
+    margin-left: 2vw;
+
+}
+.toggles-items{
+    height: 40px;
+    color: #ffffff;
+    margin: 0px 20px 0px 0px;
+}
+
+.toggles-items span{
+    font-size: 13px;
+}
+
+.toggles-items-designs{
+    height: 20px;
+    color: #ffdd95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.lang{
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    
+}
+
+.eng{
+    background-color: #ffdd95;
+    color: #111111;
+    height: 18px;
+    width: 26px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jp{
+    background-color: gray;
+    height: 18px;
+    width: 26px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Right side icons */
+
+.right-side-icons{
+    height: 40px;
+    width: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+}
+
+.right-icons{
+    height: 30px;
+    width: 30px;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#profile{
+    background-image:url("profile\ img.png");
+    background-size: cover;
+
+}
+
+/* Hero Section */
+
+.hero-section{
+    height: 88vh;
+    width: 100%;  
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffffff;
+    
+}
+
+.anime-info{
+    height:16rem;
+    width: 42rem;
+    color: #ffffff;
+    padding-left: 40px;
+    position: absolute;
+    top: 52vh;
+    left: 0px;
+    z-index:2;
+}
+.spotlite{
+    height: 14px;
+    width: 100%;
+    color: #ffdd95;
+    filter: contrast(200%);
+    margin-bottom: 20px;
+}
+.anime-title {
+    height: 6.2vh;
+    width: 100%;
+    font-size: 2.3vw;
+    margin-bottom: 24px;
+    font-weight: 550;
+}
+.anime-details {
+    display: flex;
+    justify-content: flex-start;
+    align-content: baseline;
+    height: 6.2vh;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.tv{
+    margin: 0px 15px 5px 0px;
+}
+.tv i{
+    font-size: 12.5px;
+}
+.length{
+    margin: 0px 15px 5px 0px;   
+}
+.length i{
+    font-size: 12.5px;
+}
+.date {
+    margin: 0px 15px 5px 0px;
+}
+.date i{
+    font-size: 12.5px;
+}
+
+.hd {
+    margin: 0px 8px 5px 0px;
+    height: 24px;
+    width: 25px;
+}
+.hd span{
+    font-size: 12px;
+    background-color: #ffdd95;
+    color: #111111;
+    padding: 3px 4px;
+    font-weight: 700;
+    border-radius: 23%;
+}
+.sub-dub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 81px;
+    
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 12px;
+    color: #111111;
+    background-color: #b0e3af;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+    padding: 0px 6px;
+}
+.sub i{
+    font-size: 12px;
+    padding-right: 3px;
+}
+.dub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 12px;
+    color: #111111;
+    background-color: #e3b5cd;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    padding: 0px 6px;
+    margin-left: 2px;
+
+}
+.dub i{
+    font-size: 12px;
+    padding-right: 3px;
+}
+.about-anime {
+    height: 8vh;
+    width: 100%;
+    margin-bottom: 32px;
+}
+.hero-section-buttons {
+    height: 6.8vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: rgb(45, 43, 43); */
+}
+.watchnow {
+    height: 60%;
+    width: 7.5vw;
+    background-color: #ffdd95;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px 16px;
+    margin-right: 8px;
+    font-size: 1rem;
+    color: #111111;
+    border-radius: 30px;
+}
+.watchnow i{
+    font-size: 1rem;
+}
+.details {
+    height: 60%;
+    width: 5.5vw;
+    background-color: #56565b;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px 16px;
+    margin-right: 8px;
+    font-size: 1rem;
+    color: #ffffff;
+    border-radius: 30px;
+    font-weight: 500;
+}
+.details i{
+    font-size: .9rem;
+} 
+
+.hero-section-image{
+    height: 88vh;
+    width: 79vw;
+    background-image: url("hero-section-image.jpg");
+    background-size: cover;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    top: 7.5vh;
+    /* right: 0px; */
+    
+}
+.hero-section-image::before {
+    content: "";
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: #242428; /* fallback color */
+    background: linear-gradient(0deg, #242428 0, rgba(36, 36, 40, 0) 50%, #242428 100%);
+    background: radial-gradient(ellipse, rgba(0, 0, 0, 0) 0%, #000 75%);   
+}
+
+.anime-trending {
+    height: 32vh;
+    width: 93%;
+    background-color: green;
+    margin: 0vh 4.5vh 0vh 4.5vh;
+    padding: 0vh 1.7vh 0vh 1.7vh;
+
+}
+.trending-header {
+    height: 10%;
+    width: 100%;
+    background-color: red;
+    margin-bottom: 24px;
+}
+/* 
+.anime-boxes {
+} */
+
+
+
+
+
