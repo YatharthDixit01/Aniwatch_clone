@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgb(12, 12, 12);
 }
 
 /* nAVBAR */
@@ -414,9 +414,10 @@ body{
     height: 100%;
     width: 5%;
     display: flex; 
-    justify-content: center;
-    align-items:flex-end;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:center;
+    font-weight:600;
 }
 .trending-name-num span{
     height: 20px;
@@ -424,38 +425,35 @@ body{
     font-size: 20px;
     font-weight: 700; 
     color: #ffdd95;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .name-1 {
     height: 40px;
-    width: 100px;
+    width: 150px;
     color: #ffffff;
     font-size: 15px;
     font-weight: 600;
+    transform: rotate(-90deg);
+    margin-bottom: 70px;
     display: flex;
-    flex-direction:column-reverse;
+    align-items: flex-end;
     justify-content: flex-start;
-    align-items: center;
-    transform: rotate(-90deg);
-
-    /* text-align: left;
-    color: #ffffff;
-    height: 40px;
-    transform: rotate(-90deg);
-    position: absolute;
-    bottom: 90px;
-    width: 150px;
-    line-height: 40px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    left: -55px;
-    font-size: 15px;
-    font-weight: 500; */
+    
 }
+
 .trending-photo{
     height: 100%;
     width: 20%;
     background-size: cover;
+}
+
+.share-container{
+    width: 97.5%;
+    height: 108px;
+    background-color: green;
+    padding: 0px 15px;
 }
 
 
