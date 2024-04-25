@@ -4,6 +4,10 @@
     font-family:Arial;
     font-size: 16px;
 }
+html{
+    scrollbar-width: none;
+
+}
 
 body{
     background-color: rgb(12, 12, 12);
