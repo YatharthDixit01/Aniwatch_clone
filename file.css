@@ -6,7 +6,6 @@
 }
 html{
     scrollbar-width: none;
-
 }
 
 body{
@@ -50,7 +49,7 @@ body{
 }
 
 .aniwatch-logo{
-    background-image: url("aniwatch_logo.png");
+    background-image: url("./images/aniwatch_logo.png");
     background-size: cover;
     height: 40px;
     width: 121px;
@@ -202,7 +201,7 @@ body{
 }
 
 #profile{
-    background-image:url("profile\ img.png");
+    background-image:url("./images/profile\ img.png");
     background-size: cover;
 
 }
@@ -375,7 +374,7 @@ body{
 .hero-section-image{
     height: 88vh;
     width: 79vw;
-    background-image: url("hero-section-image.jpg");
+    background-image: url("./images/hero-section-image.jpg");
     background-size: cover;
     z-index: 1;
     position: absolute;
@@ -463,7 +462,7 @@ body{
     align-items: center;
 }
 .share-girl-gif{
-    background-image: url("/share-icon.gif");
+    background-image: url("./images/share-icon.gif");
     background-size: cover;
     border-radius: 50%;
     height: 40px;
